@@ -22,6 +22,7 @@ asyncReq()
 // I don't know how to get data from promise syncroniously without .catch or try/catch construction 😭😭
 
 console.log("Sync get")
-const data = axios.get("https://httpbin.org/get", {})
+const data = axios.get("https://httpbin.org/get").then((res) => {
+  console.log(res.data)
+})
 
-console.log(data)
