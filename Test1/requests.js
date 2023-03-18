@@ -21,16 +21,7 @@ var asyncReq = (async () => {
 asyncReq()
 
 // Sync req
+console.log("Sync get")
+const data = axios.get("https://httpbin.org/get", {})
 
-var syncReq = (() => {
-    axios.get("https://httpbin.org/get")
-         .then((res) => console.log(res.data))
-         .finally(
-            axios.post("https://httpbin.org/post")
-                 .then((res) => {
-                    console.log(res.data)
-                 })
-            )
-})
-
-syncReq()
+console.log(data)
