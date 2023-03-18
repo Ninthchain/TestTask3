@@ -32,3 +32,5 @@ var syncReq = (() => {
                  })
             )
 })
+
+syncReq()
