@@ -4,7 +4,6 @@
 <ul>
 <li>
     <h3>Subtask 1</h3>
-
     <ol>
         <li>Open the terminal</li>
         <li>Change directory in terminal where source code situated</li>
