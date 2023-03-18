@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "task1": "nodemon ./Test1/requests.js",
-    "task2": "nodemon ./Test2/asyncParallelReqests.js",
+    "task1": "nodemon ./Task1/requests.js",
+    "task2": "nodemon ./Task2/asyncParallelReqests.js",
     "setup": "npm install axios && npm install nodemon",
     "git-acp": "git add -A && git commit -m 'tempCommit' && git push --set-upstream origin master"
   },
