@@ -22,6 +22,11 @@ asyncReq()
 
 // Sync req
 console.log("Sync get")
-const data = axios.get("https://httpbin.org/get", {})
+try{
+const res = axios.get("https://httpbin.org/get", {})
 
 console.log(data)
+} catch(e)
+{
+
+}
